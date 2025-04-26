@@ -1,5 +1,5 @@
 import time
-
+segundos = 15
 def esperar(segundos):
     time.sleep(segundos)
 
