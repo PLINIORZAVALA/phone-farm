@@ -20,3 +20,13 @@ Este proyecto te permite controlar una granja de teléfonos desde un único punt
 
 ## 📁 Estructura del Proyecto
 
+## Comando para ejecutar los dos telefonos el mastro y esclavo
+python .\mirror_controlado.py
+
+## Comandos para ejecutar el entorno virtual en Windows
+### Primero se tiene que habilitar para poder ejecutar el scrip
+ Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+### Luego ejecutamos el entorno virtual situandonos en la carpeta que corresponde
+ .\Activate.ps1
+
+
