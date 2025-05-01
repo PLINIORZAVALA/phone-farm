@@ -20,3 +20,6 @@ Este proyecto te permite controlar una granja de teléfonos desde un único punt
 
 ## 📁 Estructura del Proyecto
 
+## Coman execute two phone mastro and esclavo
+python .\mirror_controlado.py
+
