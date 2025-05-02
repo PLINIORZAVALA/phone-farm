@@ -50,9 +50,12 @@ safe_click(AppiumBy.ID, "net.metaquotes.metatrader5:id/symbol_view")
 wait_and_click(AppiumBy.ID, "net.metaquotes.metatrader5:id/content")
 
 # 3️⃣ Finalmente hacer clic en button_buy
-safe_click(AppiumBy.ID, "net.metaquotes.metatrader5:id/button_buy")
+wait_and_click(AppiumBy.ID, "net.metaquotes.metatrader5:id/button_buy")
 
-# Esperar un momento antes de cerrar o continuar
+# 4️⃣ Esperar y hacer clic para ver los parámetros de la entrada
+wait_and_click(AppiumBy.ID, "net.metaquotes.metatrader5:id/trade_record")
+
+# 5️⃣ Esperar un momento antes de cerrar o continuar
 sleep(2)
 
 
