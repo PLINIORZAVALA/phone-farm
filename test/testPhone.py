@@ -44,7 +44,7 @@ def wait_and_click(by, locator, timeout=10, retries=3):
     raise Exception(f"No se pudo hacer clic tras esperar: {locator}")
 
 # 1️⃣ Clic en symbol_view usando XPath
-safe_click(AppiumBy.XPATH, '(//android.widget.FrameLayout[@resource-id="net.metaquotes.metatrader5:id/symbol_view"])[2]/android.widget.RelativeLayout')
+safe_click(AppiumBy.ID, "net.metaquotes.metatrader5:id/symbol_view")
 
 # 2️⃣ Esperar y hacer clic en content
 wait_and_click(AppiumBy.ID, "net.metaquotes.metatrader5:id/content")
